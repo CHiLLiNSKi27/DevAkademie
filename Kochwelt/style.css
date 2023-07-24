@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    margin-left: 160px;
+    margin-right: 160px;
+    font-family: 'Raleway', sans-serif;
+}
+
+main{
+    margin-top: 160px ;
+    padding-bottom: 56px ;
+
+}
+
+h1{
+    font-size: 48px;
+}
+
+h2{
+    margin: 0;
+}
+
+.salad{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.aot{
+    display: flex;
+    padding-top: 26px ;
+    gap: 20px;
+}
+
+.time{
+    display: flex;
+    padding-top: 16px ;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.infocontainer{
+    background-color: #ecd3c675;
+    border-radius: 5px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.icons{
+    height: 16px;
+    width: 16px;
+}
+
+.line{
+    height: 1px ;
+    background-color: #ecd3c675;
+
+}
+
+.amounts{
+    display: flex;
+    padding-top: 8px;
+    gap: 8px;
+    align-items: center;
+
+}
+
+.servings{
+    display: flex;
+}
+
+.input{
+    height: 32px;
+    border-width: 1px;
+    border-radius: 10px 0 0 10px;
+    border-color:#ecd3c675 ;
+    border-style: double;
+    width: 150px;
+
+}
+
+.button{
+    background-color: green;
+    font-family: 'Raleway', sans-serif;
+    padding: 8px 32px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.preparation{
+    padding-top: 26px;
+}
+
+.profil{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.creator{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.cook{
+    font-size: 24px;
+}
+
+.amount {
+    display: flex;
+    padding-top: 8px;
+    gap: 8px;
+    align-items: center;
+}
+
+
+
+
+
+header {
+    box-shadow: 0 2px 10px 0 rgb(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-around;
+    padding: 0px var(--side-padding);
+
+}
+
+.left-header{
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo{
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.right-header{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.right-header a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px 10px 10px 10px;
+}
+
+.right-header a:hover{
+    color: #028000;
+}
+
+.recipe-of-the-day {
+    display: flex;
+   
+    padding: 20px;
+   
+}
+
+.recipe-of-the-day-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.image {
+    border-radius: 8px;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 125ms ease-in-out;
+}
+
+
+
+
+
+
