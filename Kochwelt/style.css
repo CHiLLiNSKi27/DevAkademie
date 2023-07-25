@@ -5,6 +5,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+
 main{
     margin-top: 160px ;
     padding-bottom: 56px ;
@@ -40,7 +41,7 @@ h2{
 }
 
 .infocontainer{
-    background-color: #ecd3c675;
+    background-color: #efefef;
     border-radius: 5px;
     padding: 6px;
     display: flex;
@@ -56,11 +57,11 @@ h2{
 
 .line{
     height: 1px ;
-    background-color: #ecd3c675;
+    background-color: #efefef;
 
 }
 
-.amounts{
+.amountclass{
     display: flex;
     padding-top: 8px;
     gap: 8px;
@@ -76,7 +77,7 @@ h2{
     height: 32px;
     border-width: 1px;
     border-radius: 10px 0 0 10px;
-    border-color:#ecd3c675 ;
+    border-color:#efefef ;
     border-style: double;
     width: 150px;
 
@@ -110,15 +111,6 @@ h2{
 .cook{
     font-size: 24px;
 }
-
-.amount {
-    display: flex;
-    padding-top: 8px;
-    gap: 8px;
-    align-items: center;
-}
-
-
 
 
 
@@ -177,11 +169,19 @@ header {
     border-radius: 8px;
     height: 300px;
     object-fit: cover;
-    transition: transform 125ms ease-in-out;
+    transition: 125ms ease-in-out;
 }
 
+td {
+    padding: 17px 38.75px 17px 38.75px;
+    border-radius: 8px;
+    width: 100vb;
+}
 
+  tr:nth-child(2n-1) {
+    background-color: #efefef; /* Grau */
+}
 
-
-
-
+.list{
+    margin-bottom: 8px;
+  }

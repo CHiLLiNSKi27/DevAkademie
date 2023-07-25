@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Rezept des Tages</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+
+
+</head>
+
+
+   
+<body onload="loadData()">
+    <header></header>
+
+    <main>
+        <h1>Französische Croissants</h1>
+        <img class="salad" src="./img/croissant.jpg" alt="Croissants">
+
+        <div class="aot">
+            <div class="infocontainer">
+                <img class="icons" src="./img/icons/clock-regular.svg" alt="Clock">
+                <span> 25 Min.</span>
+            </div>
+            <div class="infocontainer">
+                <img class="icons" src="./img/icons/brain-solid.svg" alt="brain">
+                <span> mittel</span>
+            </div>
+            <div class="infocontainer">
+                <img class="icons" src="./img/icons/calendar-alt-regular.svg" alt="calender">
+                <span> 24.07.2023</span>
+            </div>
+        </div>
+    </main>
+
+    <section class="ingridients">
+        <div class="line"></div>
+
+        <div class="amountclass">
+            <span>Zutaten für </span>
+            <div class="servings">
+                <form onsubmit="calculatePortions(); return false;" >
+                    <input required class="input" id=persons type="number" value="4" min="1" max="20">
+                    <button class="button">Portionen</button>
+                </form>
+                </div>
+        </div>
+
+        <div>
+            <table>
+                <tbody id="table">
+                    <tr><td><span class="amount">1</span> Ei(er)</td></tr>
+                    <tr><td><span class="amount">50</span> g Zucker</td></tr>
+                    <tr><td><span class="amount">250</span> g Butter</td></tr>
+                    <tr><td><span class="amount">550</span> g Mehl</td></tr>
+                    <tr><td><span class="amount">250</span> ml Milch</td></tr>
+                    <tr><td><span class="amount">25</span> g Hefe</td></tr>
+                    <tr><td><span class="amount">1</span> TL Salz</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="preparation">
+        <h2>Zubereitung</h2>
+        <div class="time">
+
+            <div class="infocontainer">
+                <img class="icons" src="./img/icons/clock-regular.svg" alt="clock">
+                <span>ca. 30 Minuten</span>
+            </div>
+
+
+            <div class="infocontainer">
+                <img class="icons" src="./img/icons/clock-regular.svg" alt="clock">
+                <span>Kühlzeit ca. 2.5 Stunden</span>
+            </div>
+        </div>
+
+        <ol>
+            <li class="list">Hefe in lauwarmer Milch auflösen.</li>
+            <li class="list">500g Mehl, Salz und Zucker in einer Schüssel mit dem Hefe-Gemisch zu einem geschmeidigen Teig vermengen</li>
+            <li class="list">Den Teig mit einem Tuch abdecken und für mindestens 30 Minuten gehen lassen. Wahlweise auch über nacht im Kühlschrank gehen lassen.</li>
+            <li class="list">Butter in drei Stücke schneiden und mit 50g Mehl verkneten.</li>
+            <li class="list">Die Butter-Mehl Mischung zwischen Backpapier zu Quadraten klopfen und ausrollen. Anschließend kühl stellen für 20 Minuten.</li>
+            <li class="list">Nun den Teig mit etwas Mehl in ein doppelt so großes Rechteck ausrollen. Die Butter-Mehl Mischung auf den Teig legen und den Teig falten, sodass die Butter-Mehl Mischung zwischen zwei Schichten Teig liegt. Und verschlossen ist.</li>
+            <li class="list">Im Anschluss das ganze vorsichtig in ein Rechteck ausrollen und dann in Drittel zur Mitte übereinanderschlagen. Erneut rechteckig ausrollen. Und wieder übereinanderschlagen.</li>
+            <li class="list">Den Teig wieder 30min Kühlstellen, damit die Butter nicht ausläuft.</li>
+            <li class="list">Noch einmal den Vorgang aus Punkt 7 & 8 wiederholen.</li>
+            <li class="list">Den Teig ausrollen und in längliche Dreiecke schneiden und von der breiten Seite zur Spitze aufrollen. Die Croissants auf ein Backpapier legen und am besten noch einmal 30 Minuten gehen lassen.</li>
+            <li class="list">Den Backofen vorheizen auf 220°C Ober-/Unterhitze (200°C Umluft). Das Ei verquirlen und damit die Croissants bestreichen. Nun die Croissants für 25 Minuten im Ofen backen.</li>
+            <li class="list">Bon Appétit.</li> </ol>
+
+        <h3>Rezept erstellt von</h3>
+        <div class="creator">
+            <img class="profil" src="./img/profile.png" alt="Profil">
+            <span class="cook">Unknown</span>
+        </div>
+    </section>
+
+
+
+
+     <footer></footer>
+</body>
+</html>

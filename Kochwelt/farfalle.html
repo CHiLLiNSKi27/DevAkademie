@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Rezept des Tages</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+
+
+</head>
+
+
+   
+<body onload="loadData()">
+    <header></header>
+
+    <main>
+        <h1>Farfalle mit Gemüse-Käse-Sauce</h1>
+        <img class="salad" src="./img/farfalle.jpg" alt="Griechischer Salat">
+
+        <div class="aot">
+            <div class="infocontainer">
+                <img class="icons" src="./img/icons/clock-regular.svg" alt="Clock">
+                <span> 30 Min.</span>
+            </div>
+            <div class="infocontainer">
+                <img class="icons" src="./img/icons/brain-solid.svg" alt="brain">
+                <span> simpel</span>
+            </div>
+            <div class="infocontainer">
+                <img class="icons" src="./img/icons/calendar-alt-regular.svg" alt="calender">
+                <span> 25.07.2023</span>
+            </div>
+        </div>
+    </main>
+
+    <section class="ingridients">
+        <div class="line"></div>
+
+        <div class="amountclass">
+            <span>Zutaten für </span>
+            <div class="servings">
+                <form onsubmit="calculatePortions(); return false;" >
+                    <input required class="input" id=persons type="number" value="2" min="1" max="20">
+                    <button class="button">Portionen</button>
+                </form>
+                </div>
+        </div>
+
+        <div>
+            <table>
+                <tbody id="table">
+                    <tr><td><span class="amount">200</span> g Farfalle</td></tr>
+                    <tr><td><span class="amount">1</span> Zwiebel(n)</td></tr>
+                    <tr><td><span class="amount">0.5</span> Paprika</td></tr>
+                    <tr><td><span class="amount">1</span> Zucchini</td></tr>
+                    <tr><td><span class="amount">1</span> EL Öl</td></tr>
+                    <tr><td><span class="amount">100</span> g Schmand</td></tr>
+                    <tr><td><span class="amount">2</span> EL Milch</td></tr>
+                    <tr><td><span class="amount">60</span> g Butterkäse</td></tr>
+                    <tr><td><span class="amount"></span> Pfeffer</td></tr>
+                    <tr><td><span class="amount"></span> Salz</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="preparation">
+        <h2>Zubereitung</h2>
+        <div class="time">
+
+            <div class="infocontainer">
+                <img class="icons" src="./img/icons/clock-regular.svg" alt="clock">
+                <span>ca. 30 Minuten</span>
+            </div>
+
+
+            <div class="infocontainer">
+                <img class="icons" src="./img/icons/clock-regular.svg" alt="clock">
+                <span>Gesamtzeit ca. 30 Minuten</span>
+            </div>
+        </div>
+
+        <ol>
+            <li class="list">Die Nudeln in reichlich kochendem Salzwasser nach Packungsangabe bissfest kochen.</li>
+            <li class="list">Inzwischen die Ziebel schälen und würfeln. Paprika von weißen Trennwänden und Kernen befreien, waschen und in kleine Würfel schneiden. Champignons trocken abreiben, von trockenen Schnittstellen befreien und eventuell halbieren.</li>
+            <li class="list">Das Öl in einer Pfanne erhitzen und die Zwiebel darin glasig dünsten. Die Paprika- und Zucchiniwürfel sowie die Champignons zur Zwiebel in die Pfanne geben und alles ca. 4 Minuten bei niedrieger Hitze dünsten.</li>
+            <li class="list">Schmand und Milch zum Gemüse geben und gründlich unterrühren. Die Sauce nur kurz aufkochen lassen, anschließend mit Salz und Pfeffer würzen.</li>
+            <li class="list">Den Butterkäse grob reiben und unter die fertige Sauce ziehen. Die Farfalle in ein Sieb abgießen und abtropfen lassen. Die Nudeln mit der Sauce in der Pfanne mischen, nochmals mit Salz und Pfeffer abschmecken, anrichten und genießen!</li>
+        </ol>
+
+        <h3>Rezept erstellt von</h3>
+        <div class="creator">
+            <img class="profil" src="./img/marcel.jpg" alt="Profil">
+            <span class="cook">Marcel</span>
+        </div>
+    </section>
+
+
+
+
+     <footer></footer>
+</body>
+</html>
